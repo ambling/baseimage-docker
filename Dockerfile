@@ -1,4 +1,4 @@
-FROM centos:centos6
+FROM centos:latest
 MAINTAINER ambling <ambling07@gmail.com>
 
 ENV HOME /root
@@ -7,7 +7,7 @@ ADD . /build
 
 # install necessary packages
 RUN rpm -Uvh /build/epel-release-6-8.noarch.rpm
-RUN yum install -y emacs-nox wget supervisor
+RUN yum install -y emacs-nox wget supervisor openssh sudo
 RUN mv /build/.emacs /root/
 
 # cleanup

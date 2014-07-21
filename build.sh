@@ -1,1 +1,1 @@
-sudo docker build --rm -t "centos:supervisor" .
+docker build --rm -t "centos:supervisor" .

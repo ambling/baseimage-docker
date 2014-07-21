@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos6
 MAINTAINER ambling <ambling07@gmail.com>
 
 ENV HOME /root

@@ -1,7 +1,7 @@
 Docker base image
 ====================
 
-This base image is based on centos:latest, with emacs (no x support), epel, supervisor, openssh, sudo installed.
+This base image is based on centos:7, with emacs (no x support), epel, supervisor, openssh, sudo installed.
 
 The base image can be used to host services that are controlled by [supervisor](http://supervisord.org/).
 
